@@ -192,7 +192,15 @@ html[accessible-theme="accessible"] {
         .sb-pageSection-header {
             .sb-pageSection-sentenceCase {
                 .sb-pageSection-count {
-                    background-color: #9a3713 !important;
+                    background-color: var(--white) !important;
+                    border-radius: 2px;
+                    border: 1px solid rgba(255,189,180, 1);
+                    opacity: 1;
+                    background-color: rgba(255,255,255, 1);
+                    color: var(--primary-color);
+                    .sb-label {
+                        color: var(--primary-color) !important;
+                    }
                 }
             }
 

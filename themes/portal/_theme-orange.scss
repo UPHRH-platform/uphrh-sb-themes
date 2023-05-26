@@ -1,0 +1,47 @@
+@use "~@project-sunbird/sb-styles/assets/mixins/mixins" as *;
+
+html[data-color='orange'] {
+    --primary-theme: #EC4933; // hsl(246, 43%, 50%);
+    --primary-theme-hsl: 10, 100%;
+    --primary-theme-rgb: rgb(236, 73, 51);
+    --primary-theme-contrast: #fff;
+    --primary-theme-contrast-rgb: rgb(255, 255, 255);
+    --primary-theme-shade: hsl(var(--primary-theme-hsl), 98%);
+    --primary-theme-tint: hsl(var(--primary-theme-hsl), 40%);
+
+    --primary-color: rgba(0, 0, 0); // rgb(0, 160, 168) hsl(183, 100%, 33%)
+    --primary-color-80: rgba(0, 0, 0, 0.8); 
+    --primary-hsl: 7, 83%;
+    --primary-color-rgb: rgb(236, 73, 51);
+    --primary-color-contrast: #fff;
+    --primary-color-contrast-rgb: rgb(255, 255, 255);
+    --primary-color-shade: hsl(var(--primary-hsl), 43%);
+    --primary-color-tint: hsl(var(--primary-hsl), 23%);
+    --primary-0: hsl(var(--primary-hsl), 95%); 
+    --primary-100: hsl(var(--primary-hsl), 90%);
+    --primary-200: hsl(var(--primary-hsl), 80%);
+    --primary-250: hsl(var(--primary-hsl), 70%);
+    --primary-300: hsl(var(--primary-hsl), 60%);
+    --primary-400: hsl(var(--primary-hsl), 56%);
+    --primary-600: hsl(var(--primary-hsl), 30%);
+    --primary-800: hsl(var(--primary-hsl), 25%);
+  
+
+    // --accent-color-light:#00c7d1; // hsl(183, 100%, 41%);
+    // --accent-color:#00A0A8; // hsl(183, 100%, 33%);
+    // --accent-color-dark:#007980; // hsl(183, 100%, 25%);
+    --grey-60: rgba(0, 0, 0, 0.6);
+    --grey-05: rgba(0, 0, 0, 0.05);
+    --sbt-body-bg: #dddbf0;
+    --sbt-body-bg2: var(--sb-header-bg);
+    --sbt-primary-bg: var(--primary-theme);
+    --sbt-compt-bg: var(--sbt-body-bg);
+    --sb-linkmenu-bg-hover: var(--primary-color);
+    --sb-footer-bg: var(--grey-60);
+    --sbfaq-compt-bg:var(--sbt-body-bg);
+    --sb-field-border: rgba(0, 0, 0, 0.2);
+    .sb-bg-white {
+        --white:var(--sbt-body-bg2);
+    }
+
+}

@@ -649,7 +649,7 @@ mat-tooltip-component .mat-tooltip {
         .mat-form-field-flex {
             background-color: var(--mat-dropdown-form-bg);
             // padding: 8px 12px 0 16px;
-            border: 1px solid var(--primary-color);
+            border: 1px solid var(--sb-field-border);
             border-radius: calculateRem(4px);
             height: calculateRem(48px);
             padding: calculateRem(8px) calculateRem(16px);
