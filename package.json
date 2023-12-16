@@ -1,10 +1,13 @@
 {
-  "name": "@project-sunbird/sb-themes",
-  "version": "0.0.88",
+  "name": "uphrh-sb-themes",
+  "version": "0.0.1",
   "description": "Sunbird project application themes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -21,9 +24,10 @@
     "url": "https://github.com/Sunbird-Ed/sb-themes/issues"
   },
   "homepage": "https://github.com/Sunbird-Ed/sb-themes.git#readme",
-  "author": "",
+  "author": "bharath",
   "license": "MIT",
   "dependencies": {
     "@project-sunbird/sb-styles": "0.0.14"
-  }
+  },
+  "devDependencies": {}
 }
